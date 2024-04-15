@@ -1,0 +1,60 @@
+{
+    "projectId": "65e86edec360f4494de7",
+    "projectName": "rotibot",
+    "functions": [
+        {
+            "$id": "65eb1da5475e366f7e27",
+            "name": "syncDiscordServers",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/syncDiscordServers"
+        },
+        {
+            "$id": "65eb1f99f3fdcdecbd2c",
+            "name": "createProfile",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/createProfile"
+        },
+        {
+            "$id": "660998e96af965884366",
+            "name": "subscription",
+            "runtime": "node-16.0",
+            "execute": [],
+            "events": [],
+            "schedule": "",
+            "timeout": 15,
+            "enabled": true,
+            "logging": true,
+            "entrypoint": "src/main.js",
+            "commands": "npm install",
+            "ignore": [
+                "node_modules",
+                ".npm"
+            ],
+            "path": "functions/subscription"
+        }
+    ]
+}
