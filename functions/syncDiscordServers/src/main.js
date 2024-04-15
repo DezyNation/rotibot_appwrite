@@ -110,6 +110,7 @@ export default async ({ req, res, log, error }) => {
                 {
                   servers: [
                     {
+                      $id: server?.id,
                       server_id: server?.id,
                       name: server?.name,
                       ...(server?.icon && {
@@ -147,6 +148,7 @@ export default async ({ req, res, log, error }) => {
                   {
                     servers: [
                       {
+                        $id: server?.id,
                         server_id: server?.id,
                         name: server?.name,
                         ...(server?.icon && {
